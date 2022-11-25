@@ -1,4 +1,5 @@
- $G =readline("DIGITE UM NUMERO!  ");
+<?php 
+$G =readline("DIGITE UM NUMERO!  ");
 
   if($G < 1 ){
     echo"não existe mês com esse numero.";}
@@ -42,3 +43,4 @@
     elseif($G == 12){
     echo $G, " Dezembro";
   }
+?>
